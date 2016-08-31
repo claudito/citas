@@ -16,7 +16,7 @@
       <ul class="nav navbar-nav">
         <li class="active"><a href="<?php echo PATH ?>pages/reserva-citas">Reserva de Citas<span class="sr-only">(current)</span></a></li>
         <li><a href="<?php echo PATH ?>pages/seguimiento-citas">Seguimiento de Citas</a></li>
-        <li><a href="<?php echo PATH ?>pages/seguimiento-citas">Reportes</a></li>
+        <li class="active"><a href="<?php echo PATH ?>pages/seguimiento-citas">Reportes</a></li>
         <li class="dropdown">
           <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Mantemientos<span class="caret"></span></a>
           <ul class="dropdown-menu">
