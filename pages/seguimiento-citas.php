@@ -1,18 +1,11 @@
+<?php include('../config.php'); ?>
 <!DOCTYPE html>
 <html lang="es">
 <head>
 	<meta charset="UTF-8">
 	<title>Reserva de Citas</title>
-<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-
-<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-<script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-
-<script type="text/javascript" src="https://cdn.datatables.net/1.10.12/js/jquery.dataTables.min.js"></script>
-
-<script type="text/javascript" src="https://cdn.datatables.net/1.10.12/js/dataTables.bootstrap.min.js"></script>
-
-<link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.12/css/dataTables.bootstrap.min.css">
+<?php include('../enlances/principal.php'); ?>
+<?php include('../enlances/datatables.php'); ?>
 
 <script type="text/javascript">
 $(document).ready(function() {
@@ -23,14 +16,10 @@ $(document).ready(function() {
 <body>
 <div class="container-fluid">
 <div class="row">
-
 <div class="col-md-12">
 <?php include('../nav.php'); ?>
 </div>
-
 </div>
-
-
 <div class="row">
 <div class="col-md-12">
 <div class="panel panel-default">
@@ -77,19 +66,6 @@ Seguimiento de Citas
 </div>
 </div>
 </div>
-
-
-
-
-
-
-
 </div>
-
-
-
-
-
-
 </body>
 </html>
