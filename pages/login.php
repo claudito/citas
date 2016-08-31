@@ -27,7 +27,7 @@ Reserva de Citas
 </div>
 <div class="panel-body">
 
-<form action="pages/home.php" method="POST">
+<form action="pages/home" method="POST">
 
 
 <div class="form-group">
