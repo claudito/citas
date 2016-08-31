@@ -14,8 +14,8 @@
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav">
-        <li class="active"><a href="pages/reserva-citas.php">Reserva de Citas<span class="sr-only">(current)</span></a></li>
-        <li><a href="pages/seguimiento-citas.php">Seguimiento de Citas</a></li>
+        <li class="active"><a href="<?php echo PATH ?>pages/reserva-citas">Reserva de Citas<span class="sr-only">(current)</span></a></li>
+        <li><a href="<?php echo PATH ?>pages/seguimiento-citas">Seguimiento de Citas</a></li>
         <li class="dropdown">
           <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Mantemientos<span class="caret"></span></a>
           <ul class="dropdown-menu">
@@ -25,7 +25,7 @@
             <li role="separator" class="divider"></li>
             <li><a href="#">Registro de Administradores</a></li>
             <li role="separator" class="divider"></li>
-            <li><a href="#">Reporte Mensuales</a></li>
+            <li><a href="<?php echo PATH ?>pages/reporte-citas">Reporte Mensuales</a></li>
           </ul>
         </li>
       </ul>
